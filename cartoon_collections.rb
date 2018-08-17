@@ -10,7 +10,7 @@ def summon_captain_planet(calls)# code an argument here
   arr = []
   calls.each do |word|
     word = word.capitalize + "!"
-    arr += word
+    arr << word
   end 
   arr
 end 
