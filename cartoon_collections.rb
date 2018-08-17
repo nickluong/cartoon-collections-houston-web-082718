@@ -25,5 +25,8 @@ end
 def find_the_cheese(foods) # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  foods.find
+  foods.find do |word|
+    if(word == "cheddar" || word == "gouda" || word == "camebert")
+      
+    end 
 end
